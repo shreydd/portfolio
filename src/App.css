@@ -1,38 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .App {
-  text-align: center;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    /* width: 50em; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hola,
+.aboutheading,
+.intro,
+.questions,
+.skills {
+    font-weight: lighter;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    /* max-width: 500px; */
+    padding: 20px;
+    border-radius: 10em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.options {
+    padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.options:hover {
+    color: rgb(0, 191, 255);
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutheading {
+    text-align: left;
+    margin-top: 2em;
+}
+
+.questions {
+    font-size: large;
+    font-family: monospace;
+    /* color: red; */
+    /* text-align: left; */
+}
+
+.para1,
+.para2 {
+    /* font-size: medium; */
+    font-weight: 300;
+    text-align: left;
+}
+
+.cseWord {
+    color: red;
+    /* font-weight: bold; */
 }
