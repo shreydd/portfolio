@@ -20,9 +20,24 @@ const Resources = () => {
         </a>
       </div>
       <div className="section">
-          <p className="header">Bonus</p>
-          <p className="brief">As a bonus, here's a hindi playlist to vibe to :D </p>
-          <a href="https://music.youtube.com/playlist?list=PLTHBKo_GjRM58DvvdPc_lRzmUzyQnaGws" className="btn">A not so trash hindi music</a>
+        <p className="header">Bonus</p>
+        <p className="brief miniTheme">
+          I took design inspirations from this{" "}
+          <a href="https://sarah.dev/">awesome human</a> and this amazing{" "}
+          <a href="https://www.youtube.com/channel/UCN7dywl5wDxTu1RM3eJ_h9Q">
+            {" "}
+            youtube channel{" "}
+          </a>{" "}
+        </p>
+        <p className="brief">
+          As a bonus, here's a hindi playlist to vibe to :D{" "}
+        </p>
+        <a
+          href="https://music.youtube.com/playlist?list=PLTHBKo_GjRM58DvvdPc_lRzmUzyQnaGws"
+          className="btn"
+        >
+          A not so trash hindi playlist
+        </a>
       </div>
     </div>
   );
