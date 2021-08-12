@@ -47,7 +47,7 @@ const Home = () => {
           </p>
           <p className="brief">
             {" "}
-            are some of the langauges I'm familiar with. I have also been
+            are some of the langauges and tools I'm familiar with. I have also been
             working with ReactJs, check out my work section for more information
           </p>
           <Link to="/Work" className="btn">Work</Link>

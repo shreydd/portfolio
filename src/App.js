@@ -5,6 +5,7 @@ import Work from "./Work";
 import Resources from "./Resources";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./Footer";
+import ScrollToTop from "./Scrollup";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Navbar /> */}
       <div className="content">
         <Router>
+            <ScrollToTop />
           <Switch>
             <Route exact path="/">
               <Home />
