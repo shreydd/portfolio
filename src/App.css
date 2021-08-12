@@ -42,6 +42,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+@media  screen and (max-width:400px) {
+    .nav {
+        text-align: center;
+    }
+    
+}
+
 .App {
     text-align: left;
 }
