@@ -49,6 +49,10 @@ const Work = () => {
           </li>
 
           <li>
+            <p className="brief miniTheme">Product Research on <a href="https://shreydd.notion.site/Sublist-Product-ideas-84d4965d0ffd4cb79f1c9365f8173249">Sublist</a>(in progress) </p>
+          </li>
+
+          <li>
               <p className="brief miniTheme">On a side note, I also write a blog series about <a href="https://factored.substack.com/">data privacy.</a> Do check it out :D</p>
           </li>
         </ul>
