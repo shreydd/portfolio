@@ -43,7 +43,7 @@ const Home = () => {
           <p className="header">Work and Projects</p>
           <p className="brief">What are my skills?</p>
           <p className="brief">
-            HTML | CSS | JavScript | Bootstrap | Python | SQL | Git{" "}
+            HTML | CSS | JavaScript | Bootstrap | Python | SQL | Git{" "}
           </p>
           <p className="brief">
             {" "}

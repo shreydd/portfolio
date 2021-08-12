@@ -29,14 +29,15 @@ const Resources = () => {
             youtube channel{" "}
           </a>{" "}
         </p>
+        <p className="brief miniTheme">The intro image is from <a href="https://www.vecteezy.com/photo/1861933-3d-illustration-abstract-tornado">this place</a></p>
         <p className="brief">
-          As a bonus, here's a hindi playlist to vibe to :D{" "}
+          As a bonus, here's a hindi music playlist you can vibe to :D{" "}
         </p>
         <a
           href="https://music.youtube.com/playlist?list=PLTHBKo_GjRM58DvvdPc_lRzmUzyQnaGws"
           className="btn"
         >
-          A not so trash hindi playlist
+          Good 'ol 2010s
         </a>
       </div>
     </div>
