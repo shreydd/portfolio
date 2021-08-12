@@ -24,9 +24,9 @@ const Home = () => {
       <div className="section-ofw">
         <div className="section-content">
           <h2 className="header">Who am I?</h2>
-          <p className="brief">
+          <p className="brief miniTheme">
             I'm a CSE graduate who can build websites, design products and
-            research the market. Recently I have been loving to write articles
+            research the market. Recently I have been loving to write <a href="https://factored.substack.com/">articles</a>
             on tech, do give it a read :D
           </p>
           <p className="brief">
