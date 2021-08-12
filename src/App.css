@@ -6,7 +6,7 @@
     /* --secondry-color: #f7b733; */
     /* --third-color: #fc6767; */
     --third-color: #cc2b5e;
-    --gradient-color: linear-gradient(to right, #cc2b5e, #753a88);
+    --gradient-color: linear-gradient(to right, #c05e25, #9442b9);
 }
 
 * {
@@ -26,7 +26,13 @@ small {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
+    padding: 5px;
+}
+
+li {
+    padding-top: 10px;
 }
 
 
@@ -93,7 +99,7 @@ a:hover {
     /* image-rendering: auto; */
 }
 
-.bonjour {
+.theme-highlight {
     color: var(--third-color);
 }
 
@@ -113,7 +119,7 @@ a:hover {
 .section {
     padding: 2rem;
     margin: auto;
-    height: 600px;
+    min-height: 600px;
     /* display: flex; */
     /* justify-content: center; */
 }
@@ -123,7 +129,7 @@ a:hover {
     margin: auto;
     background: var(--dark-gray);
     color: white;
-    height: 600px;
+    min-height: 600px;
 }
 
 .section-content {
@@ -167,7 +173,7 @@ a:hover {
     padding: 2rem;
     margin: auto;
     height: 100px;
-    background: var(--dark-gray);
+    background-image: var(--gradient-color);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -178,14 +184,16 @@ a:hover {
     font-size: 20px;
     text-decoration: none;
     font-weight: lighter;
-    color: var(--third-color);
+    color: black;
     padding: 5px;
 }
 
 .socials:hover {
-    text-decoration: underline;
+    color: white;
+    /* text-decoration: underline; */
 }
 
-.work {
-    background: var(--dark-gray);
+.miniTheme a {
+    color: var(--third-color);
+    text-decoration: underline;
 }

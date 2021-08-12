@@ -1,18 +1,22 @@
 // import backimage from './vecteezy.jpg';
 import {Link} from 'react-router-dom';
 import Navbar from "./Navbar";
-import Footer from './Footer';
 
 const Home = () => {
     const scrollDown = () => {
-
+        // window.scrollTo(0, 1500);
+        window.scrollTo({
+            top: 1500,
+            left: 2000,
+            behavior: 'smooth'
+          });
     }
   return (
     <div className="home">
       <div className="section head-content">
         <Navbar />
         <div className="section-content">
-          <h3 className="sec-intro bonjour">Bonjour!</h3>
+          <h3 className="sec-intro theme-highlight">Bonjour!</h3>
           <h2 className="sec-intro">I brainstorm ideas and code it to life</h2>
           <small>Shreyas R - Web Application Developer</small>
         </div>
