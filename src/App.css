@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
     color: white;
     background-color: transparent;
     padding: 20px;
+    /* position: fixed; */
     text-align: right;
     padding-top: 0px;
 }
@@ -59,7 +60,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-items {
-    padding: 15px;
+    padding: 9px;
     font-weight: lighter;
     font-size: large;
     cursor: pointer;
