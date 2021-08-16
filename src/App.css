@@ -59,6 +59,9 @@ body::-webkit-scrollbar {
     .nav {
         text-align: center;
     }
+    .nav-items {
+        padding: 5px;
+    }
 }
 
 .nav a {
