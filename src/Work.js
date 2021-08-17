@@ -41,12 +41,12 @@ const Work = () => {
               <p className="brief">Mini projects</p>
               <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/CLI-quiz-app"> CLI based Quiz </a> about me! Let me know how it went.</p>
               <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/CLI-quiz-app-Processors-edition"> CLI Quiz on Processors </a>, heads-up you will be quized about ARM architecture :p</p>
-              <p className="brief miniTheme">Fan of the TV Show Phineas and ferb? I made a <a href="https://replit.com/@shreydd/ferb-latin#index.html">Ferb-latin translator. </a></p>
+              <p className="brief miniTheme">Fan of the TV Show Phineas and ferb? I made a <a href="https://ferb-latin--shreydd.repl.co/">Ferb-latin translator.</a> You can check out it's code <a href="https://replit.com/@shreydd/ferb-latin#index.html">here</a> </p>
               <p className="brief miniTheme">An <a href="https://4u1vn.csb.app/">emoji interpreter </a>where you can check the meaning of an emoji. <a href="https://codesandbox.io/s/emoji-interperter-4u1vn">Click here</a>for the codebase</p>
               <p className="brief miniTheme">A <a href="https://1rg1z.csb.app/"> recommendation list app</a> where you can checkout few of my recommended TV shows and music, let me know if you liked it :D and <a href="https://codesandbox.io/s/recommendations-1rg1z">here's the code for it</a> </p>
               <p className="brief miniTheme">If you liked the UI of the recommendation app, checkout this altered <a href="https://codesandbox.io/s/rec-design-portfolio-u8u0z">portfolio style version</a> of it</p>
-              <p className="brief miniTheme">A <a href="https://cash-register.shreydd.repl.co/">Cash Register</a> application that specifies how much change is to be returned with minimum number of notes</p>
-              <p className="brief miniTheme">Check if you have a <a href="https://luckybirthday.shreydd.repl.co/">lucky birth date</a> </p>
+              <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/cash-register">Cash Register</a> application that specifies how much change is to be returned with minimum number of notes</p>
+              <p className="brief miniTheme">Check if you have a <a href="https://replit.com/@shreydd/luckybirthday">lucky birth date</a> </p>
           </li>
 
           <li>
