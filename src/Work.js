@@ -46,6 +46,7 @@ const Work = () => {
               <p className="brief miniTheme">A <a href="https://1rg1z.csb.app/"> recommendation list app</a> where you can checkout few of my recommended TV shows and music, let me know if you liked it :D and <a href="https://codesandbox.io/s/recommendations-1rg1z">here's the code for it</a> </p>
               <p className="brief miniTheme">If you liked the UI of the recommendation app, checkout this altered <a href="https://codesandbox.io/s/rec-design-portfolio-u8u0z">portfolio style version</a> of it</p>
               <p className="brief miniTheme">A <a href="https://cash-register.shreydd.repl.co/">Cash Register</a> application that specifies how much change is to be returned with minimum number of notes</p>
+              <p className="brief miniTheme">Check if you have a <a href="https://luckybirthday.shreydd.repl.co/">lucky birth date</a> </p>
           </li>
 
           <li>
