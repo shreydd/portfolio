@@ -2,7 +2,7 @@ import "./App.css";
 // import Navbar from "./Navbar";
 import Home from "./Home";
 import Work from "./Work";
-import Resources from "./Resources";
+import Blogs from "./Blogs";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./Footer";
 import ScrollToTop from "./Scrollup";
@@ -21,8 +21,8 @@ function App() {
             <Route exact path="/Work">
               <Work />
             </Route>
-            <Route exact path="/Resources">
-              <Resources />
+            <Route exact path="/Blogs">
+              <Blogs />
             </Route>
           </Switch>
         </Router>

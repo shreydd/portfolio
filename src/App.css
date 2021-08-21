@@ -74,18 +74,21 @@ body::-webkit-scrollbar {
     font-size: large;
     cursor: pointer;
     text-decoration: none;
+    margin: 5px;
 }
 
-.nav-items:hover {
+.nav-items a:hover {
     color: var(--third-color);
 }
 
-a:hover {
+
+/* a:hover {
     color: var(--third-color);
-}
+} */
 
 .active {
     color: var(--primary-color);
+    border-bottom: 1px solid white;
 }
 
 .active:hover {
@@ -157,26 +160,33 @@ a:hover {
 }
 
 .btn {
-    border: none;
     border-radius: 1rem;
-    margin: auto;
-    /* padding-left: 15px; */
+    margin: 5px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    /* color: var(--gradient-color); */
     background-image: var(--gradient-color);
-    /* font-family: sans-serif; */
     font-weight: lighter;
     text-decoration: none;
+    /* border: 1px solid var(--third-color); */
+    /* background: transparent; */
     color: black;
 }
 
 .btn:hover {
-    color: var(--third-color);
-    background: transparent;
-    border: 1px solid var(--third-color);
+    /* color: black; */
+    /* background: var(--third-color); */
     cursor: pointer;
+}
+
+.sec-btn {
+    border: 1px solid var(--third-color);
+    color: var(--third-color);
+    border-radius: 1rem;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {

@@ -47,10 +47,12 @@ const Home = () => {
           </p>
           <p className="brief">
             {" "}
-            are some of the langauges and tools I'm familiar with. I have also been
-            working with ReactJs, check out my work section for more information
+            I have also been learning ReactJs, check out my work section for more information
           </p>
-          <Link to="/Work" className="btn">Work</Link>
+          <p className="brief">
+            And my blogs page to gain new perspectives
+          </p>
+          <Link to="/Work" className="btn">Work</Link> <Link to='/Blogs' className='btn'>Blogs</Link>
         </div>
       </div>
       {/* <div className="section-ofw">

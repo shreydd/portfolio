@@ -38,23 +38,9 @@ const Work = () => {
             <a href="https://drive.google.com/file/d/1_d1byWXBoDWZbUT87ZT6Pn-HRgjzrD3-/view?resourcekey" className="btn">Demo Video</a>
           </li>
           <li>
-              <p className="brief">Mini projects</p>
-              <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/CLI-quiz-app"> CLI based Quiz </a> about me! Let me know how it went.</p>
-              <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/CLI-quiz-app-Processors-edition"> CLI Quiz on Processors </a>, heads-up you will be quized about ARM architecture :p</p>
-              <p className="brief miniTheme">Fan of the TV Show Phineas and ferb? I made a <a href="https://ferb-latin--shreydd.repl.co/">Ferb-latin translator.</a> You can check out it's code <a href="https://replit.com/@shreydd/ferb-latin#index.html">here</a> </p>
-              <p className="brief miniTheme">An <a href="https://4u1vn.csb.app/">emoji interpreter </a>where you can check the meaning of an emoji. <a href="https://codesandbox.io/s/emoji-interperter-4u1vn">Click here</a>for the codebase</p>
-              <p className="brief miniTheme">A <a href="https://1rg1z.csb.app/"> recommendation list app</a> where you can checkout few of my recommended TV shows and music, let me know if you liked it :D and <a href="https://codesandbox.io/s/recommendations-1rg1z">here's the code for it</a> </p>
-              <p className="brief miniTheme">If you liked the UI of the recommendation app, checkout this altered <a href="https://codesandbox.io/s/rec-design-portfolio-u8u0z">portfolio style version</a> of it</p>
-              <p className="brief miniTheme">A <a href="https://replit.com/@shreydd/cash-register">Cash Register</a> application that specifies how much change is to be returned with minimum number of notes</p>
-              <p className="brief miniTheme">Check if you have a <a href="https://replit.com/@shreydd/luckybirthday">lucky birth date</a> </p>
-          </li>
-
-          <li>
-            <p className="brief miniTheme">Product Research on <a href="https://shreydd.notion.site/Sublist-Product-ideas-84d4965d0ffd4cb79f1c9365f8173249">Sublist</a>(in progress) </p>
-          </li>
-
-          <li>
-              <p className="brief miniTheme">On a side note, I also write a blog series about <a href="https://factored.substack.com/">data privacy.</a> Do check it out :D</p>
+            <p className="brief">Neog Camp level zero web apps</p>
+            <p className="brief">While undergoing the level zero course from neog camp, I have built the following web apps</p>
+            <a href="https://neogapps.shreydd.repl.co/" className="btn">Portal to my web apps</a>
           </li>
         </ul>
       </div>

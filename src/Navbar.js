@@ -4,7 +4,7 @@ const Navbar = () => {
         <nav className="nav">
             <span className="nav-items"> <Link to="/">Home</Link></span>
             <span className="nav-items"> <Link to="/Work">Work</Link></span>
-            <span className="nav-items"> <Link to="/Resources">Resources</Link> </span>
+            <span className="nav-items"> <Link to="/Blogs">Blogs</Link> </span>
         </nav>
      );
 }
