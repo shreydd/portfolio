@@ -7,7 +7,7 @@ const Blogs = () => {
         <header className="header">Blogs</header>
         <p className="brief">
           I write a newsletter called factored where I share few of my thoughts on current state of tech and where it could be leading us to.</p> 
-        <p className='brief'>And a seperate set of blogs for understanding and utilizing tech, code anologies and much more. 
+        <p className='brief'>And a seperate set of blogs for understanding and utilizing tech, code and tools anologies and much more. 
         </p>
         <a
           href="https://factored.substack.com/"

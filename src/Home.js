@@ -49,19 +49,18 @@ const Home = () => {
             {" "}
             I have also been learning ReactJs, check out my work section for more information
           </p>
-          <p className="brief">
-            And my blogs page to gain new perspectives
-          </p>
-          <Link to="/Work" className="btn">Work</Link> <Link to='/Blogs' className='btn'>Blogs</Link>
+          <Link to="/Work" className="btn">Work</Link>
         </div>
       </div>
-      {/* <div className="section-ofw">
+      <div className="section-ofw">
           <div className="section-content">
-              <p className="header">Resources</p>
-              <p className="brief">I also store alot of resources, do check em out</p>
-              <Link to="/Resources" className="btn">Goodies</Link>
+              <p className="header">Blogs</p>
+              <p className="brief">I run two blogs</p>
+              <p className="brief">One where I share my perspectives on where the tech industry could be leading us to</p>
+              <p className="brief">The other where I explain few technological terms and alot of other use cases so that you can benefit from it</p>
+              <Link to="/Blogs" className="btn">Blogs</Link>
           </div>
-      </div> */}
+      </div>
     </div>
   );
 };
