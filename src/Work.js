@@ -15,7 +15,7 @@ const Work = () => {
         </p>
         <p className="brief">
           We made a Video Conferencing Web Application built on top of Jitsi
-          Meet. Feel free to give fake credentials while testing the demo.
+          Meet. Feel free to give dummy credentials while testing the demo.
         </p>
         <p className="brief">Tech stack :</p>
         <p className="brief">HTML, CSS, ReactJs, Firebase, Jitsi Meet</p>

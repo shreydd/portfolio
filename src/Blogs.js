@@ -15,7 +15,7 @@ const Blogs = () => {
           Factored
         </a>
         {/* <p className="brief">I also write a seperate set of blogs dedicated to understanding and utilizing tech, code anologies and much more </p> */}
-        <a href="https://shreydd.hashnode.dev/" className="btn">Blogs</a>
+        <a href="https://blogorithm.hashnode.dev/" className="btn">Blogorithm</a>
       </div>
       <div className="section">
         <p className="header">Bonus</p>
