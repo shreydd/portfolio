@@ -6,8 +6,8 @@ const Home = () => {
     const scrollDown = () => {
         // window.scrollTo(0, 1500);
         window.scrollTo({
-            top: 1500,
-            left: 2000,
+            top: 2500,
+            left: 3500,
             behavior: 'smooth'
           });
     }
