@@ -26,7 +26,7 @@ const Home = () => {
           <h2 className="header">Who am I?</h2>
           <p className="brief miniTheme">
             I'm a CSE graduate who can build websites, design products and
-            research the market. Recently I have been loving to write <a href="/Blogs">articles</a>
+            research the market. Recently I have been loving to write <Link to="/Blogs">articles</Link>
             on tech, do give it a read :D
           </p>
           <p className="brief">
