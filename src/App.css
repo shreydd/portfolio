@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 :root {
     --primary-color: deepskyblue;
     /* --dark-gray: #4f5155; */
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 small {
@@ -154,6 +154,7 @@ body::-webkit-scrollbar {
 
 .section-content {
     padding: 2rem;
+    text-align: center;
 }
 
 .sec-intro {
@@ -168,6 +169,7 @@ body::-webkit-scrollbar {
 
 .project-name {
     padding-top: 24px;
+    /* text-decoration: underline; */
     font-weight: 600;
 }
 
@@ -183,7 +185,7 @@ body::-webkit-scrollbar {
     /* border: 1px solid var(--third-color); */
     /* background: transparent; */
     color: black;
-    width: 10rem;
+    min-width: 10rem;
     display: inline-block;
 }
 
