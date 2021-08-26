@@ -42,11 +42,11 @@ const Home = () => {
           <p className="header">Work and Projects</p>
           <p className="brief">What are my skills?</p>
           <p className="brief">
-            HTML | CSS | JavaScript | Bootstrap | Python | Java | SQL | Git{" "}
+            HTML | CSS | Vanilla JS | ReactJs | Bootstrap | Python | SQL | Git{" "}
           </p>
           <p className="brief">
             {" "}
-            I have also been learning ReactJs, check out my work section for more information
+            I also have keen interests in Product Design and development, check out my work section to know more
           </p>
           <Link to="/Work" className="btn">Work</Link>
         </div>
