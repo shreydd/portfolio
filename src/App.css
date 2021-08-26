@@ -229,3 +229,9 @@ body::-webkit-scrollbar {
     color: var(--third-color);
     text-decoration: underline;
 }
+
+.neogDisplay {
+    width: 100%;
+    height: 500px;
+    border: none;
+}

@@ -37,7 +37,8 @@ const Work = () => {
             <a href="https://drive.google.com/file/d/1_d1byWXBoDWZbUT87ZT6Pn-HRgjzrD3-/view?resourcekey" className="btn">Demo Video</a>
             <p className="brief project-name">Neog Camp level zero web apps</p>
             <p className="brief">While undergoing the level zero course from neog camp, I have built the following web apps</p>
-            <a href="https://neogapps.shreydd.repl.co/" className="btn">Portal to my web apps</a>
+            {/* <a href="https://neogapps.shreydd.repl.co/" className="btn">Portal to my web apps</a> */}
+            <iframe src="https://neogapps.shreydd.repl.co/" className="neogDisplay" title="Web apps" >Neog apps</iframe>
       </div>
     </div>
   );
