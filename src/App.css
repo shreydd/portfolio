@@ -183,6 +183,8 @@ body::-webkit-scrollbar {
     /* border: 1px solid var(--third-color); */
     /* background: transparent; */
     color: black;
+    width: 10rem;
+    display: inline-block;
 }
 
 .btn:hover {
