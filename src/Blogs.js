@@ -34,15 +34,6 @@ const Blogs = () => {
             this place
           </a>
         </p>
-        <p className="brief">
-          As a bonus, here's a hindi music playlist you can vibe to :D{" "}
-        </p>
-        <a
-          href="https://music.youtube.com/playlist?list=PLTHBKo_GjRM58DvvdPc_lRzmUzyQnaGws"
-          className="btn"
-        >
-          Good 'ol 2010s
-        </a>
       </div>
     </div>
   );

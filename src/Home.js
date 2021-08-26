@@ -26,11 +26,10 @@ const Home = () => {
           <h2 className="header">Who am I?</h2>
           <p className="brief miniTheme">
             I'm a CSE graduate who can build websites, design products and
-            research the market. Recently I have been loving to write <Link to="/Blogs">articles</Link>
-            on tech, do give it a read :D
+            research the market.
           </p>
           <p className="brief">
-            I like to everything related to technology be it from processors to
+            I like everything related to technology be it from processors to
             Web Technologies.
           </p>
           <p className="brief">Have an idea? Let's talk</p>
@@ -43,7 +42,7 @@ const Home = () => {
           <p className="header">Work and Projects</p>
           <p className="brief">What are my skills?</p>
           <p className="brief">
-            HTML | CSS | JavaScript | Bootstrap | Python | SQL | Git{" "}
+            HTML | CSS | JavaScript | Bootstrap | Python | Java | SQL | Git{" "}
           </p>
           <p className="brief">
             {" "}

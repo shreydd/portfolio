@@ -26,23 +26,18 @@ const Work = () => {
       </div>
 
       <div className="section">
-        <header className="header">Projects</header>
-        <ul>
-          <li>
-            <p className="brief">Eva: Email Voice Assistant</p>
+        <header className="header">Research and Projects</header>
+            <p className="brief project-name">Eva: Email Voice Assistant</p>
             <p className="brief">
               We built a basic voice assistant
               to read out your emails in your gmail inbox and compose an email all through voice
-              based commands. Here's a demo video of it
+              based commands. </p>
+              <p className="brief"> Here's a demo video of it
             </p>
             <a href="https://drive.google.com/file/d/1_d1byWXBoDWZbUT87ZT6Pn-HRgjzrD3-/view?resourcekey" className="btn">Demo Video</a>
-          </li>
-          <li>
-            <p className="brief">Neog Camp level zero web apps</p>
+            <p className="brief project-name">Neog Camp level zero web apps</p>
             <p className="brief">While undergoing the level zero course from neog camp, I have built the following web apps</p>
             <a href="https://neogapps.shreydd.repl.co/" className="btn">Portal to my web apps</a>
-          </li>
-        </ul>
       </div>
     </div>
   );

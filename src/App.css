@@ -36,9 +36,11 @@ a {
     padding: 5px;
 }
 
-li {
+
+/* li {
     padding-top: 10px;
-}
+    list-style: none;
+} */
 
 
 /* chrome and others */
@@ -48,7 +50,7 @@ body::-webkit-scrollbar {
 }
 
 .App {
-    text-align: left;
+    text-align: center;
 }
 
 .nav {
@@ -162,6 +164,11 @@ body::-webkit-scrollbar {
     font-size: large;
     font-weight: lighter;
     /* padding-left: 15px; */
+}
+
+.project-name {
+    padding-top: 24px;
+    font-weight: 600;
 }
 
 .btn {
