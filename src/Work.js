@@ -65,7 +65,7 @@ const Work = () => {
           <p className="brief">This is a PRD (under progress) in building one</p>
           <a href="https://shreydd.notion.site/PRD-of-a-Web-Presence-Tool-for-Businesses-dc18bfdbfb014f2f86b69ddd6d289701" className="btn">Web presence tool</a>
 
-          <p className="brief project-name">Streamer's and tech</p>
+          <p className="brief project-name">Streamer Woes</p>
           <p className="brief">Live Streamers have a tough time dealing with technology when it fails</p>
           <p className="brief">Here are some places where we can help</p>
           <a href="https://shreydd.notion.site/Streamer-woes-A-User-Research-on-improving-live-streaming-for-content-creators-3639a3b928e44b16b55a83c6f67b355f" className="btn">Streamer's woes</a>
